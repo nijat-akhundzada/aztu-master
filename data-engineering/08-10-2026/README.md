@@ -15,19 +15,19 @@ This project contains a data engineering task for modeling and interacting with 
    docker-compose up -d
    ```
 
-2. Install dependencies:
+2. Install dependencies using uv:
    ```bash
-   pip install psycopg2-binary
+   uv pip install psycopg2-binary
    ```
 
 3. Run the database migration script to initialize the dataset:
    ```bash
-   python migrate.py
+   uv run python migrate.py
    ```
 
 4. Run the main script to interact with the database and view statistical analysis:
    ```bash
-   python main.py
+   uv run python main.py
    ```
 
 ## Project Structure
