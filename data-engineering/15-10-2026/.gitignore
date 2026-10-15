@@ -1,0 +1,20 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Request cache & SQLite databases
+.cache
+.cache.*
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Logs
+*.log
